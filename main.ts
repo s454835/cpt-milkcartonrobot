@@ -1,12 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showString("Created by Tim")
-})
-input.onButtonPressed(Button.AB, function () {
-    music.playMelody("E B C5 A B G A F ", 120)
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showNumber(input.temperature())
-})
 let angle = 0
 let opened = 95
 let closed = 175
